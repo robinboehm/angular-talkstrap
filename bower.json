@@ -1,0 +1,21 @@
+{
+  "name": "angular-talkstrap",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src",
+    "test",
+    "tests",
+    "Gulpfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "1.2.6",
+    "robinboehm.colorpicker": "robinboehm/colorpicker#0.0.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.6"
+  }
+}
