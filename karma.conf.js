@@ -21,10 +21,11 @@ module.exports = function(config) {
       // src
       'src/**/module.js',
       'src/**/*.js',
+      'test/_*/**/*.js',
       /* Match all test files */
-      'test/unit/**/*.js'//,
+      'test/unit/**/*.js',
       // Match all templates for nghtml2js
-      //'src/**/*.html'
+      'src/**/*.html'
     ],
 
 

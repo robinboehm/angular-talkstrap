@@ -1,6 +1,6 @@
 {
   "name": "robinboehm.colorpicker",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "dependencies": {
     "angular": "^1.2.6"
   },
@@ -15,17 +15,18 @@
     "test",
     "tests",
     "Gulpfile.js",
-    "package.json"
+    "package.json",
+    "backend"
   ],
   "homepage": "https://github.com/robinboehm/colorpicker",
-  "_release": "0.0.1",
+  "_release": "0.0.3",
   "_resolution": {
     "type": "version",
-    "tag": "v0.0.1",
-    "commit": "c98c02549d4418b51afe8bf83bedb12abc18dfca"
+    "tag": "v0.0.3",
+    "commit": "b3578c8a0724549ee97291ef2f171c61d6b1a4b5"
   },
   "_source": "git://github.com/robinboehm/colorpicker.git",
-  "_target": "0.0.1",
+  "_target": "0.0.3",
   "_originalSource": "robinboehm/colorpicker",
   "_direct": true
 }

@@ -1,1 +1,1 @@
-beforeEach(module('templates'));
+//beforeEach(module('templates'));
