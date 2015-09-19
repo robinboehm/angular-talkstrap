@@ -1,0 +1,30 @@
+<form novalidate name="NeutralisForm">
+  <div>
+    Investment: <input class="form-control" type="number" ng-model="investment" name="investment" min="60000" required/>
+
+    <div ng-show="NeutralisForm.investment.$error.min">
+      Der minimale Invest muss 60000€ betragen.
+    </div>
+  </div>
+
+  <div>
+    Age: <input class="form-control" type="number" name="age" ng-model="age" ng-pattern="/^\d+$/"/>
+
+    <div ng-show="NeutralisForm.age.$error.pattern">
+      Alter muss eine ganze Zahl sein
+    </div>
+  </div>
+  <div>
+    StartAge: <input  class="form-control" type="number" ng-model="startAge"/>
+  </div>
+
+  <div>
+    <span>Garantierte Investment Bla</span>
+    <input type="range" ng-model="guaranteedInvestment.value"/>
+
+    {{calc(guaranteedInvestment.value)}}
+  </div>
+</form>
+
+
+<pie-chart ng-init="guaranteedInvestment = {label: 'one', value: 50, color: 'green'}" data="[{label: 'two', value:(100-guaranteedInvestment.value) , color: 'red'},guaranteedInvestment]" options="{thickness: 200}"></pie-chart>
